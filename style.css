@@ -1,0 +1,32 @@
+.dice{
+  height: 200px;
+  width: 200px;
+  background-color: beige;
+  margin: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+}
+.point{
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+}
+.center{
+  top: calc(50% - 10%);
+  left: 80px
+}
+.top{
+  top: 20px;
+}
+.left{
+  left:20px
+}
+.bottom{
+  bottom: 20px
+}
+.right{
+  left: 140px;
+}

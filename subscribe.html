@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #6d6d6d;
+    }
+
+    .chien {
+        background-color: #1E2533;
+        color: white;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: start;
+        width: 600px;
+    }
+
+    .chien img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .chien h1 {
+        font-size: 24px;
+        margin: 50px 0 50px;
+    }
+
+    .chien p {
+        font-size: 17px;
+        margin: 10px 0 20px;
+    }
+
+    .chien input {
+        background-color: #1E2533;
+        padding: 10px;
+        width: 50%;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: white;
+        bo
+    }
+
+    .chien button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: #b5e436;
+        color: black;
+        font-size: 14px solid;
+        margin: 10px;
+        font-weight: bold;
+    }
+
+    form{
+        display: flex;
+        justify-content: flex-end;
+    }
+</style>
+
+<body>
+    <div class="chien">
+        <img src="images/dog_hearing.jpeg" alt="photo d'un chien">
+        <h1>what do you say ?</h1>
+        <p>subsribe now to our special customers newsletters and never miss a chance to buy our new products at day one
+            !</p>
+        <form method="post">
+            <label for="full_email"></label>
+            <input type="text" id="full_email" email="adresse email" placeholder="Enter your email adress" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</body>
+
+</html>

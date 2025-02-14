@@ -1,0 +1,19 @@
+header{
+    background-color: red;
+    padding:30px;
+
+}
+b
+    background-color:green;
+    margin:0px;
+    padding:50%;
+    width: 100%;
+    position: fixed
+}
+aside {
+    background-color: blue; 
+    width: 60px;           
+    height: 100vh;          
+    position: fixed;
+    padding: 20px;     
+}
